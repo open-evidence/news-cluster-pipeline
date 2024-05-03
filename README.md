@@ -10,8 +10,20 @@ This repository contains a Python implementation of a news article clustering pi
 - Silhouette score calculation for cluster evaluation
 
 ## Usage
-1. Install the required dependencies.
-2. Please see the demo.py file.
+### Install dependencies
+
+```sh
+python -m venv .venv
+source .envrc
+pip install -r requirements.txt
+```
+
+### Run demo
+
+```sh
+python src/demo.py
+```
+
 
 ## License
 This project is licensed under the MIT License.
