@@ -3,7 +3,6 @@ import pandas as pd
 
 
 df = pd.read_csv('src/news1000.csv')
-df.to_csv('src/news1000.csv', index=False)
 print(len(df))
 
 hdb_config = {

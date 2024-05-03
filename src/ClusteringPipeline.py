@@ -175,7 +175,6 @@ class ClusteringPipeline:
         self.dimensionality_reducer = umap.UMAP(n_components=200, random_state=42)
         self.dimensionality_reducer = None
         self.visualizer = ResultVisualizer(config)
-        self.embedding_timestamper = EmbeddingTimestamper(config)
         self.title_col = title_col
         self.datetime_col = datetime_col
         self.embeddings = None
